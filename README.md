@@ -4,4 +4,16 @@ My implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 
 ## Usage
 
-`wasm-pack build && cd www && npm run start`
+Requires `wasm-pack` and `npm` to be installed.
+
+### Run the project
+
+```sh
+wasm-pack build && cd www && npm run start
+```
+
+Then navigate to `localhost:8080` in your browser. 
+
+## Examples
+
+![](https://storage.googleapis.com/jpdvi-public/wasm.gif)
